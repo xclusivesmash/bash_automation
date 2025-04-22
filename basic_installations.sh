@@ -2,7 +2,7 @@
 # author: Siphamandla Matshiane
 # date: 05 April 2025
 
-sudo apt update -y
+sudo apt update
 # basic development packages
 sudo apt install vim gcc git curl zsh xclip -y
 
@@ -18,6 +18,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 source ~/.zshrc
 # make zsh default
 chsh -s $(which zsh)
-
-# vimrc setup file
-echo -e "set number\nset autoindent\nset shiftwidth=4 tabstop=4\ncolorscheme habamax" > ~/.vimrc

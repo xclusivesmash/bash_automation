@@ -1,5 +1,12 @@
 # Bash Automation
 
+# Requirements
+- This works for vim configuration.
+```
+:PlugInstall
+:CocInstall coc-tsserver
+```
+
 ## Description
 > This repository contains bash files and sub repos created for a full understanding and utilisation of the Linux system (ubuntu distribution) for task automation and related content. It is created as a guide to all required automation activites that have been encountered to facilitate best programming and development workflows.
 
